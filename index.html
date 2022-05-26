@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive NavBar</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="menu">
+      <nav class="menu__nav">
+        <div class="menu__logo">
+          <a href="/">logo</a>
+        </div>
+
+        <div id="icon__hamburguer" data-toggle></div>
+
+        <ul class="menu__list" data-nav-list>
+          <li class="menu__item">
+            <a href="#home" class="menu__link home menu__link--active">home</a>
+          </li>
+          <li class="menu__item">
+            <a href="#about" class="menu__link about">about</a>
+          </li>
+          <li class="menu__item">
+            <a href="#services" class="menu__link services">services</a>
+          </li>
+          <li class="menu__item">
+            <a href="#contact" class="menu__link contact">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>home</h1>
+      </section>
+      <section id="about">
+        <h1>about</h1>
+      </section>
+      <section id="services">
+        <h1>services</h1>
+      </section>
+      <section id="contact">
+        <h1>contact</h1>
+      </section>
+    </main>
+  </body>
+  <script src="./assets/js/main.js"></script>
+</html>
